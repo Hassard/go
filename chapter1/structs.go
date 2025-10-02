@@ -26,14 +26,4 @@ func main() {
 	bob.name = "Bob"
 	fmt.Println(bob.name)
 
-	// Page 59
-	type firstPerson struct {
-		name string
-		age  int
-	}
-
-	type secondPerson struct {
-		name string
-		age  int
-	}
 }
