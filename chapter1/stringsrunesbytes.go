@@ -26,28 +26,4 @@ func main() {
 	var rs []rune = []rune(ss)
 	fmt.Println(bs)
 	fmt.Println(rs)
-
-	// Page 52
-	fmt.Println("Page 52")
-	teams := map[string][]string{
-		"Orcas":   []string{"Fred", "Ralph", "Bijou"},
-		"Lions":   []string{"Sarah", "Peter", "Billie"},
-		"Kittens": []string{"Waldo", "Raul", "Ze"},
-	}
-
-	fmt.Println(teams["Orcas"])
-	fmt.Println(len(teams))
-
-	// Page 53
-	fmt.Println("Page 53")
-	totalWins := map[string]int{}
-	totalWins["Orcas"] = 1
-	totalWins["Lions"] = 2
-	fmt.Println(totalWins["Orcas"])
-	fmt.Println(totalWins["Kittens"])
-	totalWins["Kittens"]++
-	fmt.Println(totalWins["Kittens"])
-	totalWins["Lions"] = 3
-	fmt.Println(totalWins["Lions"])
-
 }
